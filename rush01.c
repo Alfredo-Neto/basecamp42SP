@@ -1,22 +1,55 @@
 
 void	ft_putchar(char c);
 
+
+void linha(int x, char first, char middle, char last)
+{
+	int contar = 1; 
+	while (contar <= x)
+	{
+		if (contar == 1)
+		{
+			ft_putchar(first);
+		}	
+	else if (contar == x)
+		{
+			ft_putchar(last);
+		}
+	else
+	{
+		ft_putchar(middle);
+	}  
+	contar++;
+	}
+	ft_putchar('\n');		
+}
 void	rush(int x, int y)
 {
-	int linha;
-	int coluna;
-	linha = 1;
-	coluna = 1;
+	//linha(x, '/', '*', '\\');
+	//linha(x, '*', ' ', '*');
+	//linha(x, '\\', '*', '//');
 
-	while (linha <= x)
-	{
-		coluna = 1;
-		while (coluna <= y)
+	//y = 4
+
+	int contar = 1;
+	while (contar <= y)
+	{	
+		if (contar == 1)
 		{
-			ft_putchar('*');
-			coluna++;
+			linha(x, '/', '*', '\\');	
 		}
-			ft_putchar('\n');
-			linha++;
+		else if (contar == y)
+		{
+			linha(x, '\\', '*', '/');
+		}
+		else 
+		{
+			linha(x, '*', ' ', '*');				
+		}
+		contar++;
 	}
+
+
+
 }
+
