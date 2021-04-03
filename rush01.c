@@ -1,6 +1,9 @@
+#include <unistd.h>
 
-void		rush(int x, int y)
+void		rush(void)
 {
-	 	
+	char c[6];
+	c = '/***\\';
+	write(1,&c, 5);
 	
 }
