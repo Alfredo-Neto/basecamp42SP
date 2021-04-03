@@ -25,9 +25,10 @@ void linha(int x, char first, char middle, char last)
 }
 void	rush(int x, int y)
 {
-	//linha(x, '/', '*', '\\');
-	//linha(x, '*', ' ', '*');
-	//linha(x, '\\', '*', '//');
+	int linha;
+	int coluna;
+	linha = 1;
+	
 
 	//y = 4
 
@@ -44,7 +45,56 @@ void	rush(int x, int y)
 		}
 		else 
 		{
-			linha(x, '*', ' ', '*');				
+			if(linha == 1)
+			{
+				if(coluna == 1)
+				{
+					ft_putchar('/');
+				}
+				if(coluna == y)
+				{
+					ft_putchar('\\');
+				}
+				if(coluna > 1 && coluna < y)
+				{
+					ft_putchar('*');
+				}
+			}
+
+			if(linha == x)
+			{
+				if(coluna == 1)
+				{
+					ft_putchar('\\');
+				}
+				if(coluna == y)
+				{
+					ft_putchar('/');
+				}
+				if(coluna > 1 && coluna < y)
+				{
+					ft_putchar('*');
+				}
+			}
+
+			if(coluna > 1 && coluna < y)
+			{
+				if(coluna == 1)
+				{
+					ft_putchar('*');
+				}
+				if(coluna == y)
+				{
+					ft_putchar('*');
+				}
+				if(coluna > 1 && coluna < y)
+				{
+					ft_putchar(' ');
+				}
+			}
+			
+			
+			coluna++;
 		}
 		contar++;
 	}
