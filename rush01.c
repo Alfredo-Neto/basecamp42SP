@@ -11,27 +11,20 @@ void linha(int x, char first, char middle, char last)
 		{
 			ft_putchar(first);
 		}	
-	else if (contar == x)
+		else if (contar == x)
 		{
 			ft_putchar(last);
 		}
-	else
-	{
-		ft_putchar(middle);
-	}  
-	contar++;
+		else
+		{
+			ft_putchar(middle);
+		}  
+		contar++;
 	}
 	ft_putchar('\n');		
 }
 void	rush(int x, int y)
 {
-	int linha;
-	int coluna;
-	linha = 1;
-	
-
-	//y = 4
-
 	int contar = 1;
 	while (contar <= y)
 	{	
@@ -45,61 +38,9 @@ void	rush(int x, int y)
 		}
 		else 
 		{
-			if(linha == 1)
-			{
-				if(coluna == 1)
-				{
-					ft_putchar('/');
-				}
-				if(coluna == y)
-				{
-					ft_putchar('\\');
-				}
-				if(coluna > 1 && coluna < y)
-				{
-					ft_putchar('*');
-				}
-			}
-
-			if(linha == x)
-			{
-				if(coluna == 1)
-				{
-					ft_putchar('\\');
-				}
-				if(coluna == y)
-				{
-					ft_putchar('/');
-				}
-				if(coluna > 1 && coluna < y)
-				{
-					ft_putchar('*');
-				}
-			}
-
-			if(coluna > 1 && coluna < y)
-			{
-				if(coluna == 1)
-				{
-					ft_putchar('*');
-				}
-				if(coluna == y)
-				{
-					ft_putchar('*');
-				}
-				if(coluna > 1 && coluna < y)
-				{
-					ft_putchar(' ');
-				}
-			}
-			
-			
-			coluna++;
+			linha(x, '*', ' ', '*');				
 		}
 		contar++;
 	}
-
-
-
 }
 
