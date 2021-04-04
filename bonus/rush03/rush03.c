@@ -1,31 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   rush00.c                                           :+:      :+:    :+:   */
+/*   rush03.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ade-agui <ade-agui@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: apires-d <apires-d@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/24 00:47:29 by apires-d          #+#    #+#             */
-/*   Updated: 2021/04/04 13:32:48 by ade-agui         ###   ########.fr       */
+/*   Updated: 2021/04/04 17:26:17 by apires-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <locale.h>
-
 void	ft_putchar(char c);
 
-void	print_line_rush(int lin, char first, char middle, char last)
+void	print_line_rush(int line, char first, char middle, char last)
 {
 	int cont;
 
 	cont = 1;
-	while (cont <= lin)
+	while (cont <= line)
 	{
 		if (cont == 1)
 		{
 			ft_putchar(first);
 		}
-		else if (cont == lin)
+		else if (cont == line)
 		{
 			ft_putchar(last);
 		}
@@ -47,15 +45,15 @@ void	rush(int x, int y)
 	{
 		if (cont == 1)
 		{
-			print_line_rush(x, 'o', '-', 'o');
+			print_line_rush(x, 'A', 'B', 'C');
 		}
 		else if (cont == y)
 		{
-			print_line_rush(x, 'o', '-', 'o');
+			print_line_rush(x, 'C', 'B', 'A');
 		}
 		else
 		{
-			print_line_rush(x, '|', ' ', '|');
+			print_line_rush(x, 'B', ' ', 'B');
 		}
 		cont++;
 	}

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ade-agui <ade-agui@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: apires-d <apires-d@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/24 00:47:29 by apires-d          #+#    #+#             */
-/*   Updated: 2021/04/04 13:36:38 by ade-agui         ###   ########.fr       */
+/*   Updated: 2021/04/04 17:23:46 by apires-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,6 @@ void	rush(int x, int y);
 
 int		main(void)
 {
-	rush(10, 10);
+	rush(5, 3);
 	return (0);
 }
