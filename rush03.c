@@ -6,7 +6,7 @@
 /*   By: apires-d <apires-d@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/24 00:47:29 by apires-d          #+#    #+#             */
-/*   Updated: 2021/04/04 17:26:17 by apires-d         ###   ########.fr       */
+/*   Updated: 2021/04/04 20:49:05 by apires-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@ void	rush(int x, int y)
 		}
 		else if (cont == y)
 		{
-			print_line_rush(x, 'C', 'B', 'A');
+			print_line_rush(x, 'A', 'B', 'C');
 		}
 		else
 		{
