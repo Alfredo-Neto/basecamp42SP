@@ -6,11 +6,9 @@
 /*   By: ade-agui <ade-agui@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/24 00:47:29 by apires-d          #+#    #+#             */
-/*   Updated: 2021/04/04 13:32:48 by ade-agui         ###   ########.fr       */
+/*   Updated: 2021/04/04 23:31:57 by ade-agui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <locale.h>
 
 void	ft_putchar(char c);
 
