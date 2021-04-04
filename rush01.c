@@ -1,46 +1,60 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   rush01.c                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: apires-d <apires-d@student.42sp.org.br>    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/03/24 00:47:29 by apires-d          #+#    #+#             */
+/*   Updated: 2021/04/04 00:16:33 by apires-d         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 void	ft_putchar(char c);
 
-
-void linha(int x, char first, char middle, char last)
+void	print_line_rush(int lin, char first, char middle, char last)
 {
-	int contar = 1; 
-	while (contar <= x)
+	int cont;
+
+	cont = 1;
+	while (cont <= lin)
 	{
-		if (contar == 1)
+		if (cont == 1)
 		{
 			ft_putchar(first);
-		}	
-		else if (contar == x)
+		}
+		else if (cont == lin)
 		{
 			ft_putchar(last);
 		}
 		else
 		{
 			ft_putchar(middle);
-		}  
-		contar++;
+		}
+		cont++;
 	}
-	ft_putchar('\n');		
-}
-void	rush(int x, int y)
-{
-	int contar = 1;
-	while (contar <= y)
-	{	
-		if (contar == 1)
-		{
-			linha(x, '/', '*', '\\');	
-		}
-		else if (contar == y)
-		{
-			linha(x, '\\', '*', '/');
-		}
-		else 
-		{
-			linha(x, '*', ' ', '*');				
-		}
-		contar++;
-	}
+	ft_putchar('\n');
 }
 
+void	rush(int x, int y)
+{
+	int cont;
+
+	cont = 1;
+	while (cont <= y)
+	{
+		if (cont == 1)
+		{
+			print_line_rush(x, '/', '*', '\\');
+		}
+		else if (cont == y)
+		{
+			print_line_rush(x, '\\', '*', '/');
+		}
+		else
+		{
+			print_line_rush(x, '*', ' ', '*');
+		}
+		cont++;
+	}
+}
