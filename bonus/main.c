@@ -6,7 +6,7 @@
 /*   By: ade-agui <ade-agui@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/24 00:47:29 by apires-d          #+#    #+#             */
-/*   Updated: 2021/04/04 13:37:34 by ade-agui         ###   ########.fr       */
+/*   Updated: 2021/04/04 13:36:38 by ade-agui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,6 @@ void	rush(int x, int y);
 
 int		main(void)
 {
-	rush(5, 3);
+	rush(10, 10);
 	return (0);
 }
