@@ -14,7 +14,7 @@ REGRAS UNIVERSAIS:
 OUTRAS REGRAS:
 
 1 - O preenchimento e sempre da esquerda para a direita, e de cima para baixo;
-2 - Nao pode repetir numeros dentro da mesma linha;
+2 - Nao pode repetir numeros dentro da mesma linha ou coluna;
 3 - A sequencia de parametros que vamos receber e sempre "coluna de cima, coluna de baixo, 
 coluna da esquerda, coluna da direita":
 	col_up
