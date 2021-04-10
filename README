@@ -25,6 +25,8 @@ coluna da esquerda, coluna da direita":
 4 - NAO e possivel haver opostos simetricos nos pontos de vista: 1 e 1, 2 e 2, 3 e 3, 4 e 4;
 5 - Se o grupo "col_up" for igual ao grupo"row_left", e o grupo "col_down" for igual ao grupo "row_right", 
 todas as diagonais serão iguais e crescentes;
-6 - Usaremos parametros atraves da linha de comando, isto e, na propria funcao main, e para isso usaremos argc e **argv
+6 - Usaremos parametros atraves da linha de comando, isto e, na propria funcao main, 
+e para isso usaremos argc e **argv;
+7 - Onde o ponto de vista for 1, SEMPRE preencha com a caixa 4
 
 
