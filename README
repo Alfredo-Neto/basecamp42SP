@@ -4,7 +4,8 @@ REGRAS UNIVERSAIS:
 2 - A caixa 1 so e visivel se estiver em primeiro lugar;
 3 - TODAS as caixas sao visiveis se estiverem em primeiro lugar
 4 - Uma determinada caixa so e visivel se nao houver outra maior na frente;
-5 - Se o numero do ponto de vista for o maior possivel, todas as caixas serao visiveis, e serao enfileiradas em ordem crescente a partir daquele ponto de vista
+5 - Se o numero do ponto de vista for o maior possivel, todas as caixas serao visiveis,
+ e serao enfileiradas em ordem crescente a partir daquele ponto de vista
 
 =====================================================================================================
 
@@ -12,13 +13,15 @@ OUTRAS REGRAS:
 
 1 - O preenchimento e sempre da esquerda para a direita, e de cima para baixo;
 2 - Nao pode repetir numeros dentro da mesma linha;
-3 - A sequencia de parametros que vamos receber e sempre "coluna de cima, coluna de baixo, coluna da esquerda, coluna da direita":
+3 - A sequencia de parametros que vamos receber e sempre "coluna de cima, coluna de baixo, 
+coluna da esquerda, coluna da direita":
 	col_up
 	col_down
 	row_left
 	row_right
 
 4 - NAO e possivel haver opostos simetricos nos pontos de vista: 1 e 1, 2 e 2, 3 e 3, 4 e 4;
-5 - Se o grupo "col_up" for igual ao grupo"row_left", e o grupo "col_down" for igual ao grupo "row_right", todas as diagonais serão iguais;
+5 - Se o grupo "col_up" for igual ao grupo"row_left", e o grupo "col_down" for igual ao grupo "row_right", 
+todas as diagonais serão iguais;
 
 
