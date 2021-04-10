@@ -29,5 +29,7 @@ todas as diagonais serão iguais e crescentes;
 e para isso usaremos argc e **argv;
 7 - Onde o ponto de vista for 1, SEMPRE preencha com a caixa 4
 8 - Quando o ponto de vista for 2, voce so pode preencher com
-
+9 - Qualquer vista(clue) significa que voce pode colocar o maior predio(numero 4) vista-casas depois ou alem, 
+ate a ultima casa, exemplo:
+	Vista 3, significa que voce pode colocar o maior predio(4) 3 casas a partir do ponto de vista ou alem
 
