@@ -6,6 +6,8 @@ REGRAS UNIVERSAIS:
 4 - Uma determinada caixa so e visivel se nao houver outra maior na frente;
 5 - Se o numero do ponto de vista for o maior possivel, todas as caixas serao visiveis,
  e serao enfileiradas em ordem crescente a partir daquele ponto de vista
+6 - Seguindo a regra anterior, se o numero do ponto de vista for o maior possivel, o seu oposto
+ sera o menor possivel, ex: em um lado 4 e seu oposto sera 1;	
 
 =====================================================================================================
 
