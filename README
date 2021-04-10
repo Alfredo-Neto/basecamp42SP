@@ -28,5 +28,6 @@ todas as diagonais serão iguais e crescentes;
 6 - Usaremos parametros atraves da linha de comando, isto e, na propria funcao main, 
 e para isso usaremos argc e **argv;
 7 - Onde o ponto de vista for 1, SEMPRE preencha com a caixa 4
+8 - Quando o ponto de vista for 2, voce so pode preencher com
 
 
