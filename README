@@ -18,3 +18,7 @@ OUTRAS REGRAS:
 	row_left
 	row_right
 
+4 - NAO e possivel haver opostos simetricos nos pontos de vista: 1 e 1, 2 e 2, 3 e 3, 4 e 4;
+5 - Se o grupo "col_up" for igual ao grupo"row_left", e o grupo "col_down" for igual ao grupo "row_right", todas as diagonais serão iguais;
+
+
