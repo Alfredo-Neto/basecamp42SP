@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_str_is_lowercase.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: anacarol <anacarol@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: ade-agui <ade-agui@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/04/13 03:18:02 by anacarol          #+#    #+#             */
-/*   Updated: 2021/04/13 03:32:49 by anacarol         ###   ########.fr       */
+/*   Created: 2021/04/14 17:42:31 by ade-agui          #+#    #+#             */
+/*   Updated: 2021/04/14 17:42:32 by ade-agui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
