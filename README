@@ -1,0 +1,35 @@
+REGRAS UNIVERSAIS:
+
+1 - A caixa 4 SEMPRE e visivel;
+2 - A caixa 1 so e visivel se estiver em primeiro lugar;
+3 - TODAS as caixas sao visiveis se estiverem em primeiro lugar
+4 - Uma determinada caixa so e visivel se nao houver outra maior na frente;
+5 - Se o numero do ponto de vista for o maior possivel, todas as caixas serao visiveis,
+ e serao enfileiradas em ordem crescente a partir daquele ponto de vista
+6 - Seguindo a regra anterior, se o numero do ponto de vista for o maior possivel, o seu oposto
+ sera o menor possivel, ex: em um lado 4 e seu oposto sera 1;	
+
+=====================================================================================================
+
+OUTRAS REGRAS:
+
+1 - O preenchimento e sempre da esquerda para a direita, e de cima para baixo;
+2 - Nao pode repetir numeros dentro da mesma linha ou coluna;
+3 - A sequencia de parametros que vamos receber e sempre "coluna de cima, coluna de baixo, 
+coluna da esquerda, coluna da direita":
+	col_up
+	col_down
+	row_left
+	row_right
+
+4 - NAO e possivel haver opostos simetricos nos pontos de vista: 1 e 1, 2 e 2, 3 e 3, 4 e 4;
+5 - Se o grupo "col_up" for igual ao grupo"row_left", e o grupo "col_down" for igual ao grupo "row_right", 
+todas as diagonais serão iguais e crescentes;
+6 - Usaremos parametros atraves da linha de comando, isto e, na propria funcao main, 
+e para isso usaremos argc e **argv;
+7 - Onde o ponto de vista for 1, SEMPRE preencha com a caixa 4
+8 - Quando o ponto de vista for 2, voce so pode preencher com
+9 - Qualquer vista(clue) significa que voce pode colocar o maior predio(numero 4) vista-casas depois ou alem, 
+ate a ultima casa, exemplo:
+	Vista 3, significa que voce pode colocar o maior predio(4) 3 casas a partir do ponto de vista ou alem
+
